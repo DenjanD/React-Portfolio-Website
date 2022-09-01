@@ -1,8 +1,10 @@
 .container.contact-container{
-    width: 58%;
+    width: auto;
+    padding-right: 6rem;
+    padding-left: 16rem;
     display: grid;
-    grid-template-columns: 30% 58%;
-    gap: 12%;
+    grid-template-columns: 30% 50%;
+    gap: 6%;
 }
 
 /* ======== CONTACT CONTENT ==========*/
