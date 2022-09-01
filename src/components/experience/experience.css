@@ -64,6 +64,8 @@
 /* SMALL DEVICES */
 @media screen and (max-width: 720px){
     .experience-container{
+        width: auto;
+        padding: 1rem;
         grid-template-columns: auto;
     }
 

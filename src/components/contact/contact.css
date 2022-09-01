@@ -62,7 +62,8 @@ input, textarea{
 /* MEDIUM DEVICES */
 @media screen and (max-width: 1024px){
     .container.contact-container{
-        width: 50%;
+        width: auto;  
+        padding: 2rem;
         grid-template-columns: 1fr;
         gap: 2rem;
     }
@@ -75,7 +76,8 @@ input, textarea{
 /* SMALL DEVICES */
 @media screen and (max-width: 720px){
     .container.contact-container{
-        width: 60%;  
+        width: auto;  
+        padding: 2rem;
     }
 
 }

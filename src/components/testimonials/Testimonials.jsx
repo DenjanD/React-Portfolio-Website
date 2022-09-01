@@ -22,7 +22,7 @@ export const Testimonials = () => {
   return (
     <section id="testimonials">
       <h5>What have I achieved</h5>
-      <h2>My Achievments</h2>
+      <h2>My Achievements</h2>
 
       <Swiper
         className="container testimonials-container"
