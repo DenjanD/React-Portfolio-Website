@@ -42,7 +42,7 @@
 /* MEDIUM DEVICES */
 @media screen and (max-width: 1024px){
     .portfolio-container{
-        width: 90%;
+        width: auto;
         padding: 0 3rem;
         grid-template-columns: 1fr 1fr;
     }
@@ -51,7 +51,7 @@
 /* SMALL DEVICES */
 @media screen and (max-width: 720px){
     .portfolio-container{
-        width: 90%;
+        width: auto;
         padding: 0 3rem;
         grid-template-columns: auto;
         margin-top: 3rem;

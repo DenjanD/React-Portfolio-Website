@@ -88,7 +88,7 @@
 @media screen and (max-width: 1024px){
     
     .about-container{
-        width: var(--container-width-md);
+        width: 80%;
         grid-template-columns: 1fr;
         gap: 0;
     }
@@ -110,13 +110,14 @@
 }
 
 /* SMALL DEVICES */
-@media screen and (max-width: 600px){
+@media screen and (max-width: 720px){
     .about-container{
+        width: auto;
         grid-template-columns: 1fr;
         gap: 0;
     }
     .about-me{
-        width: 70%;
+        width: 80%;
         margin: 0 auto 3rem;
     }
 

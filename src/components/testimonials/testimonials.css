@@ -47,9 +47,9 @@
 }
 
 /* SMALL DEVICES */
-@media screen and (max-width: 600px){
+@media screen and (max-width: 720px){
     .container.testimonials-container{
-        width: var(--container-width-sm);  
+        width: 80%;  
     }
 
     .client-review{

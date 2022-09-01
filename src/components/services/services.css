@@ -67,8 +67,9 @@
 }
 
 /* SMALL DEVICES */
-@media screen and (max-width: 600px){
+@media screen and (max-width: 720px){
     .service-container{
+        width: auto;
         padding: 0 2rem;
         grid-template-columns: auto;   
     }
