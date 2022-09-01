@@ -10,7 +10,6 @@ import { GrMysql } from "react-icons/gr";
 import { SiJavascript } from "react-icons/si";
 import { BsBootstrapFill } from "react-icons/bs";
 import { SiPhp } from "react-icons/si";
-import "../../index.css";
 
 export const Experience = () => {
   return (

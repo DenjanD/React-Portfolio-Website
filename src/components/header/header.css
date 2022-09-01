@@ -74,15 +74,23 @@ header{
 
 /* ======== MAKE IT RESPONSIVE ==========*/
 /* MEDIUM DEVICES */
-@media screen and (max-width: 1024px){
+@media screen and (min-width: 768px){
     header{
-        height: 60rem;
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+        height: 63rem;
+    }
+
+    .header__container{
+        gap: 2rem;
     }
 
     .me{
+        
         background: linear-gradient(var(--color-primary), transparent);
         position: absolute;
-        left: calc(55.8% - 11rem);
+        left: calc(50% - 11rem);
         margin-top: 4rem;
         border-radius: 12rem 12rem 0 0;
         overflow: hidden;
@@ -91,7 +99,7 @@ header{
 }
 
 /* SMALL DEVICES */
-@media screen and (max-width: 600px){
+@media screen and (max-width: 767px){
     header{
         height: 57rem;
     }

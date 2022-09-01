@@ -1,10 +1,10 @@
 import React from "react";
 import "./testimonials.css";
 import "./TestimonialsContent";
-import Avatar1 from "../../assets/avatar1.jpg";
-import Avatar2 from "../../assets/avatar2.jpg";
-import Avatar3 from "../../assets/avatar3.jpg";
-import Avatar4 from "../../assets/avatar4.jpg";
+import Avatar1 from "../../assets/avatar-1.png";
+import Avatar2 from "../../assets/avatar-2.png";
+import Avatar3 from "../../assets/avatar-3.png";
+import Avatar4 from "../../assets/avatar-4.png";
 
 // testimonial's content component
 import { TestimonialsContent } from "./TestimonialsContent";
@@ -59,7 +59,7 @@ export const Testimonials = () => {
 
         <SwiperSlide>
           <TestimonialsContent
-            avatar={Avatar3}
+            avatar={Avatar1}
             name="Database Design"
             review="Oracle Academy"
             href="https://drive.google.com/file/d/1r3oCgrdyjyHd2thrJgCFbgreQ6CnGCO5/view"
@@ -68,7 +68,7 @@ export const Testimonials = () => {
 
         <SwiperSlide>
           <TestimonialsContent
-            avatar={Avatar4}
+            avatar={Avatar3}
             name="KOMINFO"
             href="https://drive.google.com/file/d/1HBP-439n8IEEqo8IJZTBa_L7ScneBQYn/view"
             review="Seminar Nasional dan Lokakarya Pandu Digital"
@@ -80,7 +80,7 @@ export const Testimonials = () => {
             avatar={Avatar4}
             name="Politeknik Pos Indonesia"
             href="https://drive.google.com/file/d/1SJnjqu2cIvPRfWfr-9eB5FH9Xs0kcUjF/view"
-            review="Peran Teknologi Digital Dalam Pandemi dan Perubahan Budaya Kerja"
+            review="Peran Teknologi Digital Dalam Pandemi"
           />
         </SwiperSlide>
       </Swiper>

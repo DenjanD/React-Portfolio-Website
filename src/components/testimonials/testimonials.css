@@ -4,6 +4,7 @@
 }
 
 .client-avatar{
+    background: var(--color-white);
     width: 4rem;
     aspect-ratio: 1/1;
     overflow: hidden;
@@ -37,7 +38,7 @@
 /* MEDIUM DEVICES */
 @media screen and (max-width: 1024px){
     .container.testimonials-container{
-        width: 60%;
+        width: 80%;
     }
 
     .testimonials-card{

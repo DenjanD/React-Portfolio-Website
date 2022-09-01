@@ -42,16 +42,16 @@
 /* MEDIUM DEVICES */
 @media screen and (max-width: 1024px){
     .portfolio-container{
-        width: auto;
+        width: 90%;
         padding: 0 3rem;
         grid-template-columns: 1fr 1fr;
     }
 }
 
 /* SMALL DEVICES */
-@media screen and (max-width: 600px){
+@media screen and (max-width: 720px){
     .portfolio-container{
-        width: auto;
+        width: 90%;
         padding: 0 3rem;
         grid-template-columns: auto;
         margin-top: 3rem;

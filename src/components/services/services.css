@@ -55,7 +55,7 @@
 /* MEDIUM DEVICES */
 @media screen and (max-width: 1024px){
     .service-container{
-        width: 50%;
+        width: 80%;
        
         grid-template-columns: auto;
         gap: 2rem;
@@ -69,7 +69,6 @@
 /* SMALL DEVICES */
 @media screen and (max-width: 600px){
     .service-container{
-        width: fit-content;
         padding: 0 2rem;
         grid-template-columns: auto;   
     }

@@ -37,7 +37,8 @@
 }
 
 .experience-icon{
-    margin-top: 6px;
+    font-size: 1.5rem;
+    margin-top: 2px;
     color: var(--color-primary);
 }
 
@@ -45,7 +46,7 @@
 /* MEDIUM DEVICES */
 @media screen and (max-width: 1024px){
     .experience-container{
-        width: fit-content;
+        width: 80%;
         grid-template-columns: 1fr;
     }
 
@@ -61,14 +62,12 @@
 }
 
 /* SMALL DEVICES */
-@media screen and (max-width: 600px){
+@media screen and (max-width: 720px){
     .experience-container{
-        width: fit-content;
         grid-template-columns: auto;
     }
 
     .experience-container > div{
-        width: auto;
         padding: 2rem 0.3rem;
     }
 }
