@@ -1,0 +1,59 @@
+.portfolio-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 2.5rem;
+    margin-top: -3rem;
+}
+
+.portfolio-item{
+    background: var(--color-bg-variant);
+    padding: 1.3rem;
+    border-radius: 1rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.portfolio-item:hover{
+    background: transparent;
+    border-color: var(--color-primary);
+}
+
+.portfolio-img{
+    border-radius: 1.5rem;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+}
+
+.portfolio-item h3{
+    margin: 1.2rem 0 2rem;
+}
+
+.portfolio-btn{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  
+}
+
+
+
+/* ======== MAKE IT RESPONSIVE ==========*/
+/* MEDIUM DEVICES */
+@media screen and (max-width: 1024px){
+    .portfolio-container{
+        width: 90%;
+        padding: 0 3rem;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* SMALL DEVICES */
+@media screen and (max-width: 720px){
+    .portfolio-container{
+        width: 90%;
+        padding: 0 3rem;
+        grid-template-columns: auto;
+        margin-top: 3rem;
+    }
+}

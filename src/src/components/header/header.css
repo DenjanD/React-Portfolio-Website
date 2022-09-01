@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+.my-identity{
+    font-family: 'Source Code Pro', monospace;
+}
+
+header{
+    height: 140vh;
+    padding-top: 7rem;
+    overflow: hidden;
+}
+
+.header__container {
+    text-align: center;
+    place-items: center;
+    height: 100%;
+    position: relative;
+}
+
+/* ======== CTA ========== */
+.cta {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+/* ======== Socials ========== */
+.header__socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+    font-size: 1.5rem;
+}
+
+.header__socials::after{
+    content: '';
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+
+/* ======== IMG ME ========== */
+.me{
+    background: linear-gradient(var(--color-primary), transparent);
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    padding: 5rem 8.5rem 8.5rem 3rem;
+    
+}
+.img-me{
+    width: 170%;
+    transform: rotate(9deg);
+}
+
+/* ======== SCROLL DOWN ========== */
+.scroll__down{
+    position: absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+/* ======== MAKE IT RESPONSIVE ==========*/
+/* MEDIUM DEVICES */
+@media screen and (min-width: 768px){
+    header{
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+        height: 63rem;
+    }
+
+    .header__container{
+        gap: 2rem;
+    }
+
+    .me{
+        
+        background: linear-gradient(var(--color-primary), transparent);
+        position: absolute;
+        left: calc(50% - 11rem);
+        margin-top: 4rem;
+        border-radius: 12rem 12rem 0 0;
+        overflow: hidden;
+        padding: 5rem 8.5rem 8.5rem 3rem;
+    }
+}
+
+/* SMALL DEVICES */
+@media screen and (max-width: 767px){
+    header{
+        height: 57rem;
+    }
+
+    .header__socials, .scroll__down{
+        display: none;
+    }
+
+    .me{
+        background: linear-gradient(var(--color-primary), transparent);
+        position: absolute;
+        left: calc(50% - 11rem);
+        margin-top: 4rem;
+        border-radius: 12rem 12rem 0 0;
+        overflow: hidden;
+        padding: 5rem 8.5rem 8.5rem 3rem;
+    }
+}

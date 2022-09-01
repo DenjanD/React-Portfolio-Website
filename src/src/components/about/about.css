@@ -1,0 +1,142 @@
+.about-container{
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 15%;
+}
+
+.about-me{
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
+    display: grid;
+    place-items: center;
+}
+
+.about-img{
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+    transition: var(--transition);
+}
+
+.about-img:hover{
+    transform: rotate(0);
+    cursor: pointer;
+}
+
+.about-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.about-card-body{
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 0 3rem 0 3rem;
+    padding: 2rem;
+    text-align: center;
+    transition: var(--transition);
+    box-shadow: 5px 10px var(--color-primary);
+}
+
+.about-card-body:hover{
+    background: transparent;
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+}
+
+.about-icon{
+    color: var(--color-white);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.about-card-body h5{
+    font-size: 1rem;
+}
+
+.about-card-body small{
+    font-size: 0.8rem;
+    color: var(--color-light);
+}
+
+.about-content p{
+    margin: 2rem 0 2.6rem;
+    color: var(--color-light);
+    text-align: justify;
+}
+
+.about-icon-variant{
+    background: var(--color-primary);
+    border-radius: 1rem;
+    display: grid;
+    font-size: 1.5rem;
+    height: 3rem;
+    margin-bottom: 1.5rem;
+    margin-inline: auto;
+    padding: 0.8rem;
+    place-items: center;
+    transition: all .5s ease;
+    transition: var(--transition);
+    width: 3rem;
+}
+
+/* ======== MAKE IT RESPONSIVE ==========*/
+/* MEDIUM DEVICES */
+@media screen and (max-width: 1024px){
+    
+    .about-container{
+        width: auto;
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .about-me{
+        width: auto;
+        margin: 2rem auto 5rem;
+    }
+
+    .about-content p {
+        padding: 1rem;
+        margin: 1rem 0 1.5rem;
+    }
+
+    .about-content a {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* SMALL DEVICES */
+@media screen and (max-width: 720px){
+    .about-container{
+        width: auto;
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    .about-me{
+        width: 80%;
+        margin: 0 auto 3rem;
+    }
+
+    .about-card{
+        grid-template-columns: auto;
+        gap: 2rem;
+    }
+
+    .about-content{
+        width: auto;
+        padding: 0 3rem;
+        text-align: center;
+    }
+
+    .about-content p {
+        text-align: center;
+        width: auto;
+        margin: 1.5rem 0;
+    }
+
+    
+}
