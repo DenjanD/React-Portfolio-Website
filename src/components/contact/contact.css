@@ -78,6 +78,7 @@ input, textarea{
 /* SMALL DEVICES */
 @media screen and (max-width: 720px){
     .container.contact-container{
+        max-width: fit-content;
         width: auto;  
         padding: 2rem;
     }
