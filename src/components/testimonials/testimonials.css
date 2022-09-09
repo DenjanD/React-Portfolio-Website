@@ -49,7 +49,7 @@
 /* SMALL DEVICES */
 @media screen and (max-width: 720px){
     .container.testimonials-container{
-        width: 80%;  
+        width: 90%;  
     }
 
     .client-review{

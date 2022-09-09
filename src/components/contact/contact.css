@@ -64,23 +64,38 @@ input, textarea{
 /* MEDIUM DEVICES */
 @media screen and (max-width: 1024px){
     .container.contact-container{
-        width: auto;  
+        max-width: 90%;  
         padding: 2rem;
         grid-template-columns: 1fr;
         gap: 2rem;
     }
 
     .contact-card{
+        width: auto;
         height: auto;
     }
+
+    form{
+        width: auto;
+    }
+    
 }
 
 /* SMALL DEVICES */
 @media screen and (max-width: 720px){
     .container.contact-container{
-        max-width: fit-content;
+        max-width: 90%;
         width: auto;  
         padding: 2rem;
+    }
+
+    .contact-card{
+        width: auto;
+        height: auto;
+    }
+
+    form{
+        width: auto;
     }
 
 }
